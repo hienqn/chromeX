@@ -10,10 +10,12 @@
                 "main.js"
             ]
         }],
-        
     "background":[
-        {"scripts": ["background.js"]
-        
-        } 
-    ]
+        {"scripts": ["background.js"] } 
+    ],
+
+    "browser_action": {
+        "default_popup": "hello.html",
+        "default_icon": "hello_extensions.png"
+    }
 }
