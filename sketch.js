@@ -13,9 +13,7 @@ function setup() {
     node.frameborder = 0;
     node.scrolling = "no";
     const body = document.getElementsByTagName("BODY")[0];
-    
     body.appendChild(node);
 }
-
 setup();
 
